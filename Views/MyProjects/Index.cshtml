@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Project>
+
+@{
+    ViewBag.Title = "My projects";
+    Layout = "_Layout";
+}
+<!--button-->
+<style>
+    .projects {
+        color: gray !important;
+    }
+</style>
+<div class="sidenav visible">
+    <div style="margin-bottom: 15px;">Do you want to step in to say 'Hello'?</div>
+    <div><a class="hyperButton popUpReply" asp-action="Index" asp-controller="ContactMe">yes, please ></a></div>
+</div>
+<div>
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create" class="btn btn-sm btn-primary adminBtn">Add new project</a>
+    }
+    <div>
+        @foreach (var item in Model)
+        {
+            <div class="projectContainer col-lg-6">
+                @if (Context.User.Identity.IsAuthenticated)
+                {
+                    <form asp-action="Delete" method="post" asp-antiforgery="true">
+                        <a asp-action="Edit" class="btn btn-sm btn-warning"
+                           asp-route-projectID="@item.ProjectID">
+                            Edit
+                        </a>
+                        <input type="hidden" name="ProjectID" value="@item.ProjectID" />
+                        <button type="submit" class="btn btn-danger btn-sm">
+                            Delete
+                        </button>
+                    </form>
+                }
+                <div class="innerContainer" style="background-color: @item.BackColor">
+                    <div class="projectHeader col-xs-12">
+                        @item.Name
+                    </div>
+                    <div class="hyperButton col-xs-12">
+                        <a asp-action="Details" asp-route-projectID="@item.ProjectID">See more ></a>
+                    </div>
+                    <div class="projectPictures col-xs-12">
+                        <a asp-action="Details" asp-route-projectID="@item.ProjectID"><img src="@item.PictureUrl" asp-append-version="true" /></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script src="~/src/js/jquery.js"></script>
+<script src="~/src/js/sidescroll.js"></script>

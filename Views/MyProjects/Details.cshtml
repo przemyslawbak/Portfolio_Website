@@ -1,0 +1,85 @@
+﻿@model Project
+@{
+    ViewBag.Title = "Project details";
+    Layout = "_Layout";
+}
+<!--button-->
+<style>
+
+    .projects {
+        color: gray !important;
+    }
+</style>
+<div class="col-12 detailsWrapper">
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <form asp-action="Delete" method="post" asp-antiforgery="true">
+            <a asp-action="Edit" class="btn btn-sm btn-warning"
+               asp-route-projectID="@Model.ProjectID">
+                Edit
+            </a>
+            <input type="hidden" name="ProjectID" value="@Model.ProjectID" />
+            <button type="submit" class="btn btn-danger btn-sm">
+                Delete
+            </button>
+        </form>
+    }
+    <!--main left side container-->
+        <div class="detailMainContainer col-xl-4">
+            <div class="detailsName">
+                @Model.Name
+            </div>
+            <div class="detailsSmallComment">
+                <div>Project links:</div>
+                @if (Model.GitHubUrl != "#")
+                {
+                    <a href="@Model.GitHubUrl" target="_blank" class="linkIcon" title="GitHub"><i class="fab fa-github-square"></i></a>
+                }
+                @if (Model.WebUrl != "#")
+                {
+                    <a href="@Model.WebUrl" target="_blank" class="linkIcon" title="Website"><i class="fas fa-globe-americas"></i></a>
+                }
+                @if (Model.YouTubeUrl != "#")
+                {
+                    <a href="@Model.YouTubeUrl" target="_blank" class="linkIcon" title="Video"><i class="fab fa-youtube-square"></i></a>
+                }
+                @if (Model.WorkLogUrl != "#")
+                {
+                    <a href="@Model.WorkLogUrl" target="_blank" class="linkIcon" title="Work Log"><i class="fas fa-pen-square"></i></a>
+                }
+                @if (Model.WebUrl == "#" && Model.WebUrl == "#" && Model.YouTubeUrl == "#" && Model.WorkLogUrl == "#" && Model.GitHubUrl == "#")
+                {
+                    <span>NONE</span>
+                }
+            </div>
+            <br/>
+            <br/>
+            <div class="detailsSmallComment">Used technologies:</div>
+            @foreach (var technology in Model.TechnologiesProjects)
+            {
+                <img class="detailIcon" src="@technology.Technology.PictureLink" asp-append-version="true"
+                     title="@technology.Technology.Name" /><span> </span>
+            }
+            <br />
+            <div class="detailsSmallComment">
+                Project completed:
+                <br />
+                @Model.CompletionDate.ToShortDateString()
+            </div>
+        </div>
+    <!--comment-->
+    <div class="detailsCommentContainer col-xl-4 col-md-6 col-sm-12" style="background-color: @Model.BackColor">
+        <div class="detailsSmallComment">
+            About the project:
+        </div>
+        <!--Raw for "nicEdit" output-->
+        @Html.Raw(Model.Comments)
+    </div>
+    <!--right side container for picture and links-->
+    <div class="detailsPictureContainer col-xl-4 col-md-6">
+        <img src="@Model.PictureUrl" asp-append-version="true" />
+    </div>
+    <div class="hyperButton">
+        <a href='javascript:history.go(-1)'>Go back ></a>
+    </div>
+</div>

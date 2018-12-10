@@ -1,0 +1,56 @@
+﻿@model Contact
+@{
+    ViewBag.Title = "Edit about me";
+    Layout = "_Layout";
+}
+@Html.AntiForgeryToken()
+<!--button-->
+<style>
+    .contact {
+        color: gray !important;
+    }
+</style>
+<div class="col-md-4">
+    <form asp-action="Edit" method="post" asp-antiforgery="true">
+        <input type="hidden" asp-for="ContactId" />
+        <div class="form-group">
+            <label asp-for="PictureUrl">Picture url</label>
+            <div><span asp-validation-for="PictureUrl" class="text-danger"></span></div>
+            <input asp-for="PictureUrl" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="AboutMe1">About me</label>
+            <div><span asp-validation-for="AboutMe1" class="text-danger"></span></div>
+            <textarea asp-for="AboutMe1" class="form-control wysiwyg"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone">Phone number</label>
+            <div><span asp-validation-for="Phone" class="text-danger"></span></div>
+            <input asp-for="Phone" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email">Email address</label>
+            <div><span asp-validation-for="Email" class="text-danger"></span></div>
+            <input asp-for="Email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="GitHub">GitGub url</label>
+            <div><span asp-validation-for="GitHub" class="text-danger"></span></div>
+            <input asp-for="GitHub" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="LinkedIn">Linked In url</label>
+            <div><span asp-validation-for="LinkedIn" class="text-danger"></span></div>
+            <input asp-for="LinkedIn" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Facebook">facebook url</label>
+            <div><span asp-validation-for="Facebook" class="text-danger"></span></div>
+            <input asp-for="Facebook" class="form-control" />
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>

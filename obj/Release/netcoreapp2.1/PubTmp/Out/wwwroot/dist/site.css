@@ -1,0 +1,631 @@
+﻿/*GENERAL*/
+
+a, u {
+    text-decoration: none;
+}
+html {
+    overflow-x: hidden;
+}
+body, wrapper {
+    min-height: 100vh;
+}
+footer {
+    margin-top: 40px;
+    width: 100%;
+    background-image: url(/src/img/footBG.png);
+    background-repeat: repeat;
+    border-top: 3px solid #557DA8;
+    height: 75px;
+    text-align: center;
+}
+
+.footText {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.emptySpace {
+    height: 40px;
+}
+
+
+.pageInfo {
+    margin: 20px;
+}
+
+.hyperPaging {
+    text-align: center;
+    height: 20px;
+    color: #296DD2;
+    font-size: 20px;
+    position: relative;
+}
+
+.hyperButton {
+    padding-top: 40px;
+    text-align: center;
+    height: 35px;
+    color: #296DD2;
+    font-size: 20px;
+}
+
+
+/*LAYOUT HEADER*/
+
+.mainHeader {
+    font-style: normal;
+    text-shadow: 3px 4px 2px #557DA8;
+    position: relative;
+    height: 250px;
+    background: #557DA8;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spotlight {
+    display: none;
+    position: absolute;
+    background: url(/src/img/revBack_1000.png) repeat 0 0;
+}
+/*Header shading*/
+
+.container1 {
+    color: transparent;
+    position: relative;
+}
+
+    .container1:before {
+        content: attr(data-text);
+        position: absolute;
+        color: #fff;
+    }
+
+.container2 {
+    color: transparent;
+    position: relative;
+}
+
+    .container2:before {
+        content: attr(data-text);
+        position: absolute;
+        color: #fff;
+    }
+a.mainButton:link, a.mainButton:visited, a.mainButton:active {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    top: 25px;
+    float: left;
+    text-decoration: none;
+}
+
+a.mainButton:hover {
+    color: gray;
+    font-size: 25px;
+    margin-left: 20px;
+    top: 25px;
+    float: left;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+.mainTextContainer {
+    top: 25%;
+    position: relative;
+    float: left;
+    color: white;
+    font-size: 40px;
+}
+.mainTxtWrapper {
+    margin-left: 5%;
+}
+.socialContainer {
+    top: 40%!important;
+    font-size: 65px;
+    position: relative;
+    float: left;
+}
+a.socialIcon:link {
+    /*color in _Layout*/
+    text-shadow: -3px 4px 2px #557DA8;
+    float: right;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+a.socialIcon:hover {
+    /*color in _Layout*/
+    float: right;
+    margin-right: 20px;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.9) 0px 2px 3px !important;
+    text-decoration: none;
+    -webkit-transition: color 0.2s cubic-bezier();
+    -moz-transition: color 0.2s cubic-bezier();
+    -o-transition: color 0.2s cubic-bezier();
+    transition: color 0.2s cubic-bezier();
+}
+
+a.picLink:link {
+    float: right;
+}
+.mainNavbar {
+    background: rgba(36,36,36,0.9);
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    visibility: visible;
+    border-bottom: 3px solid black;
+}
+.stickyNavbar {
+    background: rgba(36,36,36,0.9);
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    visibility: hidden;
+    z-index: 1;
+    border-top: 0;
+    border-bottom: 3px solid black;
+}
+.hidden {
+    visibility: hidden;
+}
+
+.sticky {
+    visibility: visible;
+}
+
+.mainButton {
+    /*color in _Layout*/
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+.adminBtn {
+    margin: 10px;
+}
+/*MY PROJECTS INDEX*/
+.sidenav {
+    font-size: 20px;
+    text-align: center;
+    height: 130px; /* Full-height: remove this if you want "auto" height */
+    width: 350px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    bottom: 100px;
+    right: -350px;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    background-image: url(/src/img/footBG.png);
+    background-repeat: repeat;
+    border-left: 3px solid #557DA8;
+    border-bottom: 3px solid #557DA8;
+    border-top: 3px solid #557DA8;
+}
+.projectContainer {
+    float: left;
+    padding-bottom: 20px;
+}
+.innerContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+}
+
+.projectHeader {
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.projectPictures {
+}
+    .projectPictures img {
+        max-width: 93%;
+        height: 400px;
+        position: absolute;
+        bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+/*MY TECHNOLOGIES VIEW*/
+.thead {
+    background-color: #E8E8E8;
+}
+
+.techLogo {
+    height: 50px;
+}
+
+/*LOGIN VIEW*/
+.loginDialog {
+    width: 250px;
+    margin-left: 20px;
+}
+
+/*PROJECT DETAILS*/
+.detailsWrapper {
+
+}
+.detailsSmallComment {
+    font-size: 20px;
+    height: 40px;
+}
+.detailMainContainer {
+    float: left;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.detailsName {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+.detailsCompletedDate {
+    margin-top: 20px;
+    font-size: 20px;
+}
+a.linkIcon:link {
+    font-size: 40px;
+    color: #557DA8;
+}
+a.linkIcon:hover {
+    font-size: 40px;
+    color: transparent;
+    text-shadow: rgba(85,125,168,0.9) 0px 2px 3px;
+    text-decoration: none;
+    -webkit-transition: color 0.2s cubic-bezier();
+    -moz-transition: color 0.2s cubic-bezier();
+    -o-transition: color 0.2s cubic-bezier();
+    transition: color 0.2s cubic-bezier();
+}
+.detailIcon {
+    height: 40px;
+    margin: 5px;
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+    -webkit-transition: filter 0.5s ease-out;
+    -moz-transition: filter 0.5s ease-out;
+    -o-transition: filter 0.5s ease-out;
+    transition: filter 0.5s ease-out;
+}
+    .detailIcon:hover {
+        -webkit-filter: sepia(0);
+        filter: sepia(0);
+    }
+    .detailsPictureContainer {
+        float: left;
+        height: 100%;
+    }
+.detailsPictureContainer img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.detailsCommentContainer {
+    padding-bottom: 20px;
+    float: left;
+    height: auto;
+}
+/*ABOUT*/
+.aboutMainContainer {
+    padding-top: 10px;
+    float: left;
+    height: 100%;
+}
+    .aboutMainContainer img {
+        border-radius: 50%;
+        border: solid #557da8 3px;
+        height: 250px;
+        width: 250px;
+    }
+.aboutDialogReactContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    visibility: hidden;
+}
+label {
+    padding-left: 10px;
+    color: #2f7bff;
+}
+.dialogQuestion {
+    border: 3px solid #557DA8;
+    padding: 15px;
+    font-size: 20px;
+    background-image: url(/src/img/footBG.png);
+    background-repeat: repeat;
+}
+
+    .dialogQuestion:after,
+    .dialogQuestion:before {
+        bottom: 100%;
+        left: 100px;
+        border: solid transparent;
+        content: " ";
+        position: absolute;
+    }
+
+    .dialogQuestion:after {
+        border-bottom-color: #557DA8;
+        border-width: 15px;
+    }
+
+    .dialogQuestion:before {
+        border-bottom-color: #557DA8;
+        border-width: 15px;
+    }
+
+
+
+.dialogButton {
+    white-space: normal !important;
+    max-width: 95%;
+    text-align: left;
+}
+.aboutContactContainer {
+    float: right;
+    height: 100%;
+}
+.aboutMeContainer {
+    float: left;
+    height: auto;
+    padding-bottom: 20px;
+}
+/*MEDIUM SCREEN*/
+@media (max-width: 1100px) {
+    .socialContainer {
+        font-size: 45px;
+    }
+    a.socialIcon:link {
+        margin-right: 10px;
+    }
+    a.socialIcon:hover {
+        margin-right: 10px;
+    }
+    .mainTxtWrapper {
+        margin-left: 0%;
+    }
+    }
+/*SMALL SCREEN*/
+@media (max-width: 730px) {
+    .mainNavbar {
+        height: 80px;
+    }
+
+    .stickyNavbar {
+        height: 80px;
+    }
+
+    a.mainButton:link {
+        top: 25px;
+        font-size: 18px;
+    }
+
+    .mainTextContainer {
+        font-size: 32px;
+    }
+
+    .projectHeader {
+        font-size: 24px;
+        padding-top: 0px;
+    }
+
+    .projectSeeMore {
+        font-size: 18px;
+    }
+
+    .detailsName {
+        font-size: 26px;
+    }
+
+    .innerContainer {
+        height: 370px;
+    }
+
+    .projectPictures img {
+        height: 270px;
+    }
+
+    .emptySpace {
+        height: 40px;
+    }
+
+    .hyperButton {
+        padding-top: 0px; /*small screen 0!!*/
+    }
+    .socialContainer {
+        visibility: hidden;
+    }
+    .aboutDialogReactContainer {
+        min-height: 10px;
+    }
+    }
+
+/*BUSINESS CARD*/
+* {
+    box-sizing: border-box
+}
+
+.BusinessCardContainer {
+    left: 4vw;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3vh;
+    position: relative;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+    -moz-transform: perspective(1400px);
+    -ms-transform: perspective(1400px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective-origin: right;
+    -moz-perspective-origin: right;
+    perspective-origin: right;
+}
+
+.card {
+    width: 90%;
+    height: 158px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 100% 0%;
+    -moz-transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: .8s ease-in-out;
+}
+
+
+.logo {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+    color: #557da8;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+}
+
+.logo span {
+    color: #625247;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.front, .back {
+    font-weight: normal !important;
+    background: url(/src/img/footBG.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.contactWrap {
+    top: 70px;
+    position: relative;
+}
+.socialWrap {
+    color: #557da8;
+    top: 30px;
+    position: relative;
+}
+    .socialWrap a:link, .socialWrap a:active, .socialWrap a:visited {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .socialWrap a:hover {
+        color: gray;
+        text-decoration: none;
+        -webkit-transition: color 0.2s ease-out;
+        -moz-transition: color 0.2s ease-out;
+        -o-transition: color 0.2s ease-out;
+        transition: color 0.2s ease-out;
+    }
+
+.back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    text-align: center;
+}
+
+.BusinessCardContainer:hover .card {
+    -webkit-transform: rotateY(180deg) translateX(100%);
+    -moz-transform: rotateY(180deg) translateX(100%);
+    -ms-transform: rotateY(180deg) translateX(100%);
+    transform: rotateY(180deg) translateX(100%);
+    cursor: pointer;
+}
+
+.back ul, .front ul {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    padding: 0 1%;
+}
+
+    .back ul:after, front ul:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+.back li, .front li {
+    display: inline-block;
+    width: 95%;
+    height: 10px;
+    margin: 1% 1%;
+    position: relative;
+}
+.back .fab {
+    font-size: 25px;
+}
+
+    .back li:before .front li:before{
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        margin-left: -15px;
+        width: 30px;
+        height: 30px;
+        background: #FC5135;
+        color: white;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+    }
+.card:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}

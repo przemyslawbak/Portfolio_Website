@@ -1,0 +1,56 @@
+﻿@model Contact
+@{
+    ViewBag.Title = "About me";
+    Layout = "_Layout";
+}
+<!--button-->
+<style>
+    .contact {
+        color: gray !important;
+    }
+</style>
+<div>
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Edit" class="btn btn-sm btn-warning adminBtn">Edit</a>
+    }
+</div>
+<div class="col-12">
+    <div class="aboutMainContainer col-xl-4 col-md-6">
+        @if (Model.PictureUrl != "#")
+        {
+            <img src="@Model.PictureUrl" asp-append-version="true" />
+        }
+        @if (Model.PictureUrl == "#")
+        {
+            <img src="~/src/img/defaultAvatar.png" asp-append-version="true" />
+        }
+        <div class="aboutDialogReactContainer col-12" id="dialogsReact">
+        </div>
+    </div>
+    <div class="aboutMeContainer col-xl-4 col-md-6 col-sm-12" style="background-color: #fafafa">
+        @Html.Raw(Model.AboutMe1)
+    </div>
+    <div class="aboutContactContainer col-xl-4 col-md-6">
+        <div class="BusinessCardContainer">
+            <div class="card">
+                <div class="front">
+                    <div class="logo">Przemysław Bąk</div>
+                    <ul class="contactWrap">
+                        <li class="tel"><span class="fa fa-phone" /> <span style="font-weight: normal !important;">@Model.Phone</span></li>
+                        <li class="email"><span class="fa fa-envelope" /> <span style="font-weight: normal !important;">@Model.Email</span></li>
+                    </ul>
+                </div>
+                <div class="back">
+                    <ul class="socialWrap">
+                        <li><span class="fab fa-linkedin" /> <a href="@Model.LinkedIn" target="_blank">check my LinkedIn</a></li>
+                        <li><span class="fab fa-github-square" /> <a href="@Model.GitHub" target="_blank">visit my GitHub</a></li>
+                        <li><span class="fab fa-facebook-square" /> <a href="@Model.Facebook" target="_blank">find me on Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/src/js/jquery.js"></script>
+<script src="~/src/js/sidescroll.js"></script>

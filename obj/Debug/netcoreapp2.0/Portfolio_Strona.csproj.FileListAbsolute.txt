@@ -1,0 +1,55 @@
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - roboczy\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona - USTAWIENIA IDENTITY\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Developers\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Debug\netcoreapp2.0\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Debug\netcoreapp2.0\Portfolio_Strona.pdb

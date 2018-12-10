@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link href="~/src/lib/fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/src/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/dist/site.css" />
+    <link rel="stylesheet" href="~/src/lib/wysiwyg/richtext.min.css">
+    <link rel="icon" href="~/src/img/favicon.gif">
+    <style>
+        .input-validation-error {
+            border-color: red;
+            background-color: #fee;
+        }
+    </style>
+    <title>
+        Przemyslaw Bąk - @ViewBag.Title
+    </title>
+</head>
+<body>
+    <wrapper class="d-flex flex-column">
+        <div class="header">
+            <!--HEADER-->
+            <div class="mainHeader">
+                <div class="spotlight"></div>
+                <div class="col-sm-9 col-xs-12 mainTextContainer">
+                    <div class="container1" data-text="Hi! I am">
+                        <span class="shadeMe">Hi! I am</span>
+                    </div>
+                    <div class="container2" data-text="Przemysław Bąk {developer}">
+                        <span class="shadeMe">Przemysław Bąk {developer}</span>
+                    </div>
+                </div>
+                <!--VIEW COMPONENT-->
+                @await Component.InvokeAsync(nameof(SocialView))
+            </div>
+            <div class="mainNavbar">
+                <div><a class="mainButton projects noSelect " asp-action="Index" asp-controller="MyProjects">my projects</a></div>
+                <div><a class="mainButton contact noSelect " asp-action="Index" asp-controller="ContactMe">about and contact</a></div>
+                <div><a class="mainButton technologies noSelect " asp-action="Index" asp-controller="MyTechnologies">technologies</a></div>
+                <div><a class="mainButton about noSelect " asp-action="Index" asp-controller="Literature">literature</a></div>
+                @if (Context.User.Identity.IsAuthenticated)
+                {
+                    <div><a class="mainButton survey noSelect " asp-action="Index" asp-controller="Survey">survey</a></div>
+                }
+            </div>
+            <div class="stickyNavbar">
+                <div><a class="mainButton projects noSelect " asp-action="Index" asp-controller="MyProjects">my projects</a></div>
+                <div><a class="mainButton contact noSelect " asp-action="Index" asp-controller="ContactMe">about and contact</a></div>
+                <div><a class="mainButton technologies noSelect " asp-action="Index" asp-controller="MyTechnologies">technologies</a></div>
+                <div><a class="mainButton about noSelect " asp-action="Index" asp-controller="Literature">literature</a></div>
+                @if (Context.User.Identity.IsAuthenticated)
+                {
+                    <div><a class="mainButton survey noSelect " asp-action="Index" asp-controller="Survey">survey</a></div>
+                }
+            </div>
+            <!--HERE TRIGGERS APP.JS-->
+            <div class="emptySpace"></div>
+            @if (Context.User.Identity.IsAuthenticated)
+            {
+                <a class="btn btn-sm btn-primary adminBtn"
+                   asp-action="Logout" asp-controller="Account">
+                    Logout
+                </a>
+            }
+        </div>
+        <!--BODY-->
+        <main class="container-fluid py-3 flex-fill">
+            @RenderBody()
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div class="footText">&copy @DateTime.Now.Year - Przemysław Bąk</div>
+        </footer>
+    </wrapper>
+    <!--SCRIPTS-->
+    <script src="~/src/js/jquery.js"></script>
+    <script src="~/dist/bundle.js"></script>
+    <script src="~/src/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/src/js/realshadow.js"></script>
+    <script src="~/src/js/headerShading.js"></script>
+    <script src="~/src/js/plugins.js"></script>
+    <script src="~/src/lib/wysiwyg/jquery.richtext.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.deps.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.runtimeconfig.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\bin\Release\netcoreapp2.1\Portfolio_Strona.pdb
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.AssemblyInfo.cs
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.dll
+C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Portfolio_Strona Webio - ostatni\Portfolio Strona\obj\Release\netcoreapp2.1\Portfolio_Strona.pdb

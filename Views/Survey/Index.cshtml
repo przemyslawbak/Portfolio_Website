@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Survey>
+
+@{
+    ViewBag.Title = "Survey results";
+    Layout = "_Layout";
+}
+<style>
+    .survey {
+        color: gray !important;
+    }
+</style>
+<div>
+    <table class="table table-hover">
+        <thead class="thead">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Proposed changes</th>
+                <th scope="col">Opinion about website</th>
+                <th scope="col">Survey time</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Change</td>
+                    <td>@item.Opinion</td>
+                    <td>@item.Time</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

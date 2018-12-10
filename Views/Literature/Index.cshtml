@@ -1,0 +1,64 @@
+﻿@model LiteratureIndexViewModel
+
+@{
+    ViewBag.Title = "Literature";
+}
+<style>
+    .about {
+        color: gray!important;
+    }
+</style>
+<div>
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create" class="btn btn-sm btn-primary adminBtn">Add new publication</a>
+    }
+        <div class="pageInfo">Page @Model.PagingInfo.CurrentPage of @Model.PagingInfo.TotalPages</div>
+    <table class="table table-hover">
+        <thead class="thead">
+            <tr>
+                <th scope="col">Studied publication</th>
+                <th scope="col">Authors</th>
+                <th scope="col">About technologies</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.LiteratureList)
+            {
+                <tr>
+                    <td><a href="@item.Url" target="_blank"><span>'</span>@item.Title<span>'</span></a></td>
+                    <td>@item.Authors</td>
+                    <td>
+                        @{ int i = 0;
+                            foreach (var literature in item.LiteraturesTechnologies)
+                            {
+                                i++;
+                                @literature.Technology.Name
+                                @if (i < item.LiteraturesTechnologies.Count)
+                                {
+                                    <span>, </span>
+                                }
+                            }
+                        }
+                    </td>
+                    @if (Context.User.Identity.IsAuthenticated)
+                    {
+                        <td>
+                            <form asp-action="Delete" method="post" asp-antiforgery="true">
+                                <a asp-action="Edit" class="btn btn-sm btn-warning" asp-route-literatureID="@item.LiteratureID">
+                                    Edit
+                                </a>
+                                <input type="hidden" name="LiteratureID" value="@item.LiteratureID" />
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="hyperPaging" page-model="@Model.PagingInfo" page-action="Index"></div>
+</div>

@@ -1,0 +1,87 @@
+﻿@model TechnologyViewModel
+
+@{
+    ViewBag.Title = "My Technologies";
+    Layout = "_Layout";
+}
+<style>
+    .technologies {
+        color: gray !important;
+    }
+</style>
+<div>
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create" class="btn btn-sm btn-primary adminBtn">Add new technology</a>
+    }
+        <div class="pageInfo">Page @Model.PagingInfo.CurrentPage of @Model.PagingInfo.TotalPages</div>
+    <table class="table table-hover">
+        <thead class="thead">
+            <tr>
+                <th scope="col">Technology</th>
+                <th></th>
+                <th scope="col">Studied from</th>
+                <th scope="col">Used in</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Technologies)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        <img class="techLogo" src="@item.PictureLink" asp-append-version="true" />
+                    </td>
+                    <td>
+                        @{ int i = 0;
+                            foreach (var literature in item.LiteraturesTechnologies)
+                            {
+                                i++;
+                                var txt = "'"+ literature.Literature.Title + "'";
+                                @if (i < item.LiteraturesTechnologies.Count)
+                                {
+                                    txt = txt + ", ";
+                                }
+                                 @txt
+                            }
+                        }
+                    </td>
+                    <td>
+                        @{ i = 0;
+                            foreach (var project in item.TechnologiesProjects)
+                            {
+                                i++;
+                                var txt = project.Project.Name;
+                                @if (i < item.TechnologiesProjects.Count)
+                                {
+                                    txt = txt + ", ";
+                                }
+
+                                <a asp-action="Details" asp-controller="MyProjects" asp-route-projectID="@project.Project.ProjectID">@txt</a>
+}
+                        }
+                    </td>
+                    @if (Context.User.Identity.IsAuthenticated)
+                    {
+                        <td>
+                            <form asp-action="Delete" method="post" asp-antiforgery="true">
+                                <a asp-action="Edit" class="btn btn-sm btn-warning"
+                                   asp-route-technologyID="@item.TechnologyID">
+                                    Edit
+                                </a>
+                                <input type="hidden" name="TechnologyID" value="@item.TechnologyID" />
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="hyperPaging" page-model="@Model.PagingInfo" page-action="Index"></div>
+</div>

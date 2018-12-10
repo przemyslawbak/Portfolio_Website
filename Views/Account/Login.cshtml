@@ -1,0 +1,22 @@
+﻿@model LoginModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "_Layout";
+}
+<div class="loginDialog">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <form asp-action="Login" asp-controller="Account" method="post" asp-antiforgery="true">
+        <input type="hidden" asp-for="ReturnUrl" />
+        <div class="form-group">
+            <label asp-for="Name">Username</label>
+            <div><span asp-validation-for="Name" class="text-danger"></span></div>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Password">Password</label>
+            <div><span asp-validation-for="Password" class="text-danger"></span></div>
+            <input asp-for="Password" class="form-control" />
+        </div>
+        <button class="btn btn-primary" type="submit">Log in</button>
+    </form>
+</div>
