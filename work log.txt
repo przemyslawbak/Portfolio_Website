@@ -1,0 +1,69 @@
+08.07 - main page graphics project in Photoshop, routing setup, startup.cs setup, 
+folders and files, _Layout coding, creating model project.cs, repo, EF database,
+problem with data return to index.cshtml - fixed
+09.07 - routing, layout and main page screen size responding, sticky navbar,
+project container formatting
+10.07 - technologies base migration, view design, bootstrap tables, main view corrections
+11.07 - identity and admin controller, CRUD for projects, problem with deleting 
+12.07 - fixed deleting in CRUD, created CRUD for technologies, 
+mixed up with databases when creating dropdown list :/, database fixed
+13.07 - problems with dropdown lists, studying ASP.NET Core MVC tutorial from Microsoft,
+learned how to use context in controller, finally(!) done first dropdown list
+14.07-17.07 - searching how to save multiselect dropdown and form, building simple 
+test project to learn how to use viewmodel and db context, <-finally done
+18.07 - added to test application delete and create actions, implemented in main app.,
+start working on auto-update project list for technologies
+19.07 - binding list of projects for technology, building logic for int-string-int saving
+IDs for relationships between models,<- done
+20.07 - 22.07 - studying about relationships between models
+23.07 - rebuilding architecture for many-to-many relations between models
+24.07 - completed controller for projects, litarature and technology, 
+created actions: index, edit, create, delete for all of them
+25.07 - display order for indexes, navbar responsivity, date picker, 
+corrected display of index lists, literature Urls,
+26.07 - pictures on Tech index, styling social media buttons
+27.07 - change form fb/in background icons to Font Awesome, navbar active page,
+change style of social icons, styling layout`s header, idea for React for later on
+28.07 - updated project model, updated views for custom background-color and extra info,
+server side model validation
+29.07 - project details view design and code, responsivity of details,
+installing font awesome and bootstrap files, updated controller, new view for details
+30.07 - added buttons to detail, routing to details from tech index links
+31.07 - fixed problem with rendering footer @ several pages by clear:both,
+footer design and code, paging for tech and literature, added controller, index contact,
+updated project with couple of properties, img format on details
+01.08 - index img positioning and responsivity, text editor for comments,
+index about/contact, general view design and code
+02.08 - edit in 'about' controller, jquery for index img resize, 
+view component for layout buttons links, troubles with resolving footer for
+large screens
+03.08 - fixed flushing footer with Bootstrap 4.1, exception page for Staging and Production,
+building repositories for all DB actions
+04.08 - fixing several small styling issues
+05.08 - header`s reveal css+jquery, start working on survey panel done in React
+06.08 - studying React tutorials and book "react-w-dzialaniu-tworzenie-aplikacji-internetowych",
+07.08 - studying React styling,
+08.08 - 09.08 learning how to make CRUD on EF by React, Ajax, Fetch,
+concept design of react dialog window
+10.08 - studying about arrays, keys, state in React
+11.08 - 14.08 - studying book "Fullstack React" for better understanding of ReactJS
+14.08 - restarted work on React component
+15.08 - updating state on chosen reply for the question in dialog, setting up dialog scenarios,
+inputs at some questions, 
+16.08 - finished with coding React component in test app - saving survey result to the server,
+clearing inputs in case of skip,
+17.08 - moving and adapting React app to the project, survey controller + model,
+survey view
+18.08 - finished with dynamic shading of header, used bigger background img for header,
+survey view for authorised person, removed bug on navbar for :active, side bar,
+08.11 - corrections on `projects` and `contect` models, contact business card styling,
+technology images format
+22.11 - secured forms against CSRF, secured login against brute-force (delayed)
+23-24 - **WEEKEND BREAK**
+25.11 - replaced IQueryables in repositories with IEnumerables for many-to-many
+relations, start working on antiforgery for Fetch call
+26.11 - done antiforgery for Fetch POST,
+27.11 - repositories for Contact and Survey, default picture in contact,
+fixed button's bug in project' detail view, updated React dialog`s question no6
+with variable entered name, 
+29.11 - removing some minor bugs
