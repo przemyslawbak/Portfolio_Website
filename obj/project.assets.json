@@ -12902,11 +12902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Praca IT\\Programowanie\\Projekty\\Portfolio Strona\\Portfolio_Strona Webio - ostatni\\Portfolio Strona\\Portfolio_Strona.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\IT\\Programowanie\\Projekty\\Portfolio Strona\\Portfolio_Strona Webio - ostatni\\Portfolio Strona\\Portfolio_Strona.csproj",
       "projectName": "Portfolio_Strona",
-      "projectPath": "C:\\Users\\asus\\Desktop\\Praca IT\\Programowanie\\Projekty\\Portfolio Strona\\Portfolio_Strona Webio - ostatni\\Portfolio Strona\\Portfolio_Strona.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\IT\\Programowanie\\Projekty\\Portfolio Strona\\Portfolio_Strona Webio - ostatni\\Portfolio Strona\\Portfolio_Strona.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\Praca IT\\Programowanie\\Projekty\\Portfolio Strona\\Portfolio_Strona Webio - ostatni\\Portfolio Strona\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\IT\\Programowanie\\Projekty\\Portfolio Strona\\Portfolio_Strona Webio - ostatni\\Portfolio Strona\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
