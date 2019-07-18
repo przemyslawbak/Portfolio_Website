@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="przemyslaw-bak.pl" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\asus\\Desktop\\IT\\Programowanie\\Projekty\\Portfolio\ Strona\\Portfolio_Strona\ Webio\ -\ ostatni\\Portfolio\ Strona\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>

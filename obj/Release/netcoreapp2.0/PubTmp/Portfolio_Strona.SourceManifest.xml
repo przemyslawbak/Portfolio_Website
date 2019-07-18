@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.0\PubTmp\Out\" />
-  <dbfullsql path="C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.0\PubTmp\EFSQLScripts\Portfolio_Strona.Models.AppIdentityDbContext.sql" />
-  <dbfullsql path="C:\Users\asus\Desktop\Praca IT\Programowanie\Projekty\Portfolio Strona\Webio\Portfolio Strona\obj\Release\netcoreapp2.0\PubTmp\EFSQLScripts\Portfolio_Strona.Models.ApplicationDbContext.sql" />
-</sitemanifest>
