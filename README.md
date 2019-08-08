@@ -20,7 +20,7 @@ Solution created from scrap to present my portfolio projects. Web application co
   - usage of ViewComponent in layout view,
   - screen size responsivity with Bootstrap,
   - wysiwyg plugin for entity edits,
-  - partly interactive header
+  - partly interactive header.
   
 2. Application is using:
   - ASP.NET Core,
