@@ -1,3 +1,5 @@
+# Portfolio_Website
+
 ## Purpose
 
 Solution created from scrap to present my portfolio projects. Web application contains a few words about them, my technology stack and information about me. Feel free to visit the website and fill up a survey dialog in "about and contact" tab.
@@ -49,3 +51,7 @@ Solution created from scrap to present my portfolio projects. Web application co
   - uuid,
   - css-loader,
   - style-loader --save-dev.
+  
+  ## Production
+  
+  18 Aug 2018
