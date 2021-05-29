@@ -357,7 +357,7 @@ label {
         bottom: 100%;
         left: 100px;
         border: solid transparent;
-        content: " ";
+        content: " dddddd";
         position: absolute;
     }
 
